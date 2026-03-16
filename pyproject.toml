@@ -1,0 +1,29 @@
+[project]
+name = "bat-classifier-service"
+version = "0.1.0"
+description = "Service for clipping bat audio events and invoking a configurable classifier backend."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi>=0.115.13,<1.0.0",
+  "numpy>=2.0.0,<3.0.0",
+  "python-multipart>=0.0.9,<1.0.0",
+  "soundfile>=0.13.1,<1.0.0",
+  "uvicorn>=0.30.0,<1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "httpx>=0.27.0,<1.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "."}
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["app*"]

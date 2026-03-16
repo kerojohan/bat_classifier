@@ -1,0 +1,1 @@
+"""Bat classifier service package."""

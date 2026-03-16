@@ -1,0 +1,10 @@
+.git
+__pycache__/
+.pytest_cache/
+*.pyc
+tests/
+.venv/
+.venv-batdetect2/
+bat_classifier_service.egg-info/
+examples/*.WAV
+examples/*.wav
