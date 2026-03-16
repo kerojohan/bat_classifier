@@ -18,7 +18,7 @@ intervalo manual, recorta el clip y devuelve un JSON con metadatos e inferencia.
 Este proyecto se publica bajo `CC BY-NC 4.0`.
 
 - Uso no comercial únicamente
-- Atribución obligatoria a Joan
+- Atribución obligatoria al repositorio `bat_classifier`
 - Ver [LICENSE](LICENSE) y [NOTICE](NOTICE)
 
 Nota: esto es software source-available, no una licencia open source aprobada por OSI.
